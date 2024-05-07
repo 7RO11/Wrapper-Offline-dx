@@ -1,53 +1,5 @@
 ﻿{
 	"voices": {
-		"ava": {
-			"country": "US",
-			"language": "en",
-			"gender": "F",
-			"source": "nuance",
-			"arg": "Ava-ml",
-			"desc": "Ava"
-		},
-		"evan": {
-			"country": "US",
-			"language": "en",
-			"gender": "M",
-			"source": "nuance",
-			"arg": "Evan",
-			"desc": "Evan"
-		},
-		"joelle": {
-			"country": "US",
-			"language": "en",
-			"gender": "F",
-			"source": "nuance",
-			"arg": "Joelle",
-			"desc": "Joelle"
-		},
-		"nathan2": {
-			"country": "US",
-			"language": "en",
-			"gender": "M",
-			"source": "nuance",
-			"arg": "Nathan",
-			"desc": "Nathan (Nuance)"
-		},
-		"noelle": {
-			"country": "US",
-			"language": "en",
-			"gender": "F",
-			"source": "nuance",
-			"arg": "Noelle",
-			"desc": "Noelle"
-		},
-		"zoe": {
-			"country": "US",
-			"language": "en",
-			"gender": "F",
-			"source": "nuance",
-			"arg": "Zoe-ml",
-			"desc": "Zoe"
-		},
 		"allison_cepstral": {
 			"country": "US",
 			"language": "en",
