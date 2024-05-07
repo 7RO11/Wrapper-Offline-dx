@@ -1,6 +1,6 @@
 ## Wrapper: Offline dx
-the build of wrapper offline i use to make videos on my yt series ["the caillou crusade"](https://www.youtube.com/@7R011)
-it adds my custom characters, sfx and a few of my bug fixes
+the build of wrapper offline i use to make videos on my yt series ["the caillou crusade"](https://www.youtube.com/@7R011)<br />  
+it adds my custom characters, sfx and a few of my bug fixes<br />  
 its currently built on a 2.1.0 version of WO which contains some upstream fixes not in 2.0.0
 
 # Wrapper: Offline
