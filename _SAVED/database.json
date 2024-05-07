@@ -1,6 +1,147 @@
 {
 	"assets": [
 		{
+			"duration": 192,
+			"type": "sound",
+			"subtype": "tts",
+			"title": "[Joey] aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+			"id": "fe3b7922.mp3"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "DorisNH",
+			"themeId": "family",
+			"id": "2acbae7c",
+			"tags": "_cat:Headless Cast"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "CaillouNH",
+			"themeId": "family",
+			"id": "bfad0602",
+			"tags": "_cat:Headless Cast"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "RosieNH",
+			"themeId": "family",
+			"id": "0beb9823",
+			"tags": "_cat:Headless Cast"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "BorisNH",
+			"themeId": "family",
+			"id": "5fb9db4c",
+			"tags": "_cat:Headless Cast"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Barney",
+			"themeId": "family",
+			"id": "317a0d2f",
+			"tags": "_cat:Side Chars"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Doris.xml",
+			"themeId": "business",
+			"id": "f012de17"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Boris.xml",
+			"themeId": "business",
+			"id": "ec1e0bc4"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Bill Mom.xml",
+			"themeId": "family",
+			"id": "f073a419",
+			"tags": "_cat:Side Chars"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Pig Mom.xml",
+			"themeId": "family",
+			"id": "5cce2a39",
+			"tags": "_cat:Side Chars"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Bill Dad.xml",
+			"themeId": "family",
+			"id": "ae314a2f",
+			"tags": "_cat:Side Chars"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Leo.xml",
+			"themeId": "family",
+			"id": "b74c0ca7",
+			"tags": "_cat:Side Chars"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Sid.xml",
+			"themeId": "business",
+			"id": "cfd155f2",
+			"tags": ""
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Lois.xml",
+			"themeId": "family",
+			"id": "b721f5e4",
+			"tags": "_cat:Family Guy"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Brian.xml",
+			"themeId": "family",
+			"id": "32c2a906",
+			"tags": "_cat:Family Guy"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Meg.xml",
+			"themeId": "family",
+			"id": "847ae37c",
+			"tags": "_cat:Family Guy"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Chris.xml",
+			"themeId": "family",
+			"id": "2035686a",
+			"tags": "_cat:Family Guy"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Chin Griffin.xml",
+			"themeId": "family",
+			"id": "0c16edef",
+			"tags": "_cat:Family Guy"
+		},
+		{
 			"type": "char",
 			"subtype": 0,
 			"title": "Buff Rosie",
@@ -1581,7 +1722,15 @@
 			"tags": "_cat:Main Cast"
 		}
 	],
-	"movies": [],
+	"movies": [
+		{
+			"id": "ab5755ac",
+			"duration": "00:02",
+			"date": "2024-05-07T18:40:19.723Z",
+			"title": "aaaaaaaa",
+			"sceneCount": 1
+		}
+	],
 	"folders": [],
 	"watermarks": []
 }
