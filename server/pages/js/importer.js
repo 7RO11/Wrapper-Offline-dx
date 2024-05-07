@@ -198,7 +198,7 @@ class AssetImporter {
 			}
 			case "swf":
 			case "gif":
-			case "jpg":
+			case "JPG":
 			case "png": {
 				$el = $(`
 					<div class="importer_asset" data-ext="${ext}">
@@ -238,7 +238,7 @@ class AssetImporter {
 				break;
 			}
 			default: {
-				this.displayError("Invalid file type!");
+				this.displayError(`Invalid ${ext} file type!`);
 				return false;
 			}
 		}
