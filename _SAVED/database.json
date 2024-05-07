@@ -1,13 +1,6 @@
 {
 	"assets": [
 		{
-			"duration": 192,
-			"type": "sound",
-			"subtype": "tts",
-			"title": "[Joey] aaaaaaaaaaaaaaaaaaaaaaaaaaa",
-			"id": "fe3b7922.mp3"
-		},
-		{
 			"type": "char",
 			"subtype": 0,
 			"title": "DorisNH",
@@ -1722,15 +1715,7 @@
 			"tags": "_cat:Main Cast"
 		}
 	],
-	"movies": [
-		{
-			"id": "ab5755ac",
-			"duration": "00:02",
-			"date": "2024-05-07T18:40:19.723Z",
-			"title": "aaaaaaaa",
-			"sceneCount": 1
-		}
-	],
+	"movies": [],
 	"folders": [],
 	"watermarks": []
 }
