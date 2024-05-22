@@ -198,6 +198,7 @@ class AssetImporter {
 			}
 			case "swf":
 			case "gif":
+			case "jpg":
 			case "JPG":
 			case "png": {
 				$el = $(`
