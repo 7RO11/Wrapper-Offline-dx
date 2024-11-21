@@ -161,83 +161,6 @@
 		{
 			"type": "sound",
 			"subtype": "soundeffect",
-			"title": "thunderstorm_rolling_rain_01_normalized [thunderstorm_rolling_rain_01_normalized].mp3",
-			"duration": 94968,
-			"id": "9a3a650d.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
-			"title": "zero_point_tag_normalized [zero_point_tag_normalized].mp3",
-			"duration": 10584,
-			"id": "3d4bd5cc.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
-			"title": "wind_gust_02_normalized [wind_gust_02_normalized].mp3",
-			"duration": 7032,
-			"id": "651aad40.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
-			"title": "yawn_male_01_normalized [yawn_male_01_normalized].mp3",
-			"duration": 3984,
-			"id": "16630ff2.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
-			"title": "wood_door_knock_09_normalized [wood_door_knock_09_normalized].mp3",
-			"duration": 1248,
-			"id": "bb79524d.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
-			"title": "wood_snap_medium_04_normalized [wood_snap_medium_04_normalized].mp3",
-			"duration": 864,
-			"id": "4b78fd89.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
-			"title": "wood_snap_medium_01_normalized [wood_snap_medium_01_normalized].mp3",
-			"duration": 1032,
-			"id": "0e66ab5e.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
-			"title": "thunder_strike_07_normalized [thunder_strike_07_normalized].mp3",
-			"duration": 17928,
-			"id": "452fe2cd.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
-			"title": "welding_torch_burn_02_normalized [welding_torch_burn_02_normalized].mp3",
-			"duration": 4571,
-			"id": "868400ef.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
-			"title": "whip_whoosh_03_medium_06_normalized [whip_whoosh_03_medium_06_normalized].mp3",
-			"duration": 840,
-			"id": "1d4de48d.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
-			"title": "whip_whoosh_03_medium_05_normalized [whip_whoosh_03_medium_05_normalized].mp3",
-			"duration": 936,
-			"id": "5b5368a4.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
 			"title": "torch_burning_02_10_loop_normalized [torch_burning_02_10_loop_normalized].mp3",
 			"duration": 9816,
 			"id": "91c6e1b5.mp3"
@@ -245,23 +168,9 @@
 		{
 			"type": "sound",
 			"subtype": "soundeffect",
-			"title": "whip_whoosh_03_medium_04_normalized [whip_whoosh_03_medium_04_normalized].mp3",
-			"duration": 720,
-			"id": "4ac2cdcd.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
 			"title": "welding_torch_burn_01_normalized [welding_torch_burn_01_normalized].mp3",
 			"duration": 2808,
 			"id": "bfbb4f94.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
-			"title": "whip_whoosh_03_medium_01_normalized [whip_whoosh_03_medium_01_normalized].mp3",
-			"duration": 864,
-			"id": "c24867db.mp3"
 		},
 		{
 			"type": "sound",
@@ -728,13 +637,6 @@
 		{
 			"type": "sound",
 			"subtype": "soundeffect",
-			"title": "glass.mp3",
-			"duration": 408,
-			"id": "fdcf34d4.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
 			"title": "footsteps_walking_gravel_01_loop_normalized [footsteps_walking_gravel_01_loop_normalized].mp3",
 			"duration": 8087.999999999999,
 			"id": "c7984717.mp3"
@@ -1165,13 +1067,6 @@
 			"title": "boogie_de_paris_tag_normalized [boogie_de_paris_tag_normalized].mp3",
 			"duration": 4728,
 			"id": "4e190808.mp3"
-		},
-		{
-			"type": "sound",
-			"subtype": "soundeffect",
-			"title": "bounce_boing_58_normalized [bounce_boing_58_normalized].mp3",
-			"duration": 552,
-			"id": "000fe7f6.mp3"
 		},
 		{
 			"type": "sound",

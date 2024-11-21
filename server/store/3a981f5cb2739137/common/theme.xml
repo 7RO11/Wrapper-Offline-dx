@@ -16962,6 +16962,7 @@
 		<tag>Smooth</tag>
 	</sound>
 	<sound id="FunkyBeat.mp3" name="Funky Beat" downloadtype="progressive" subtype="tribeofnoise" duration="35600"/>
+	
 	<sound id="recipe_for_riches.mp3" name="Recipe For Riches" downloadtype="progressive" subtype="tribeofnoise" duration="227500"/>
 	<sound id="tibetan_monks.mp3" name="Tibetan Monks" downloadtype="progressive" subtype="tribeofnoise" duration="217400"/>
 	<sound id="swimming.mp3" name="Swimming" downloadtype="progressive" subtype="tribeofnoise" duration="301400"/>
@@ -18050,130 +18051,130 @@
 	<sound id="writing_the_future.mp3" name="Writing the future" downloadtype="progressive" subtype="bgmusic" duration="136594"/>
 	<sound id="human_evolution.mp3" name="Human evolution" downloadtype="progressive" subtype="bgmusic" duration="177816"/>
 	<sound id="airport_ambience01_60_loop.mp3" name="Ambience - In the airport" downloadtype="progressive" subtype="soundeffect" duration="60552"/>
-	<sound id="alarm_clock_vintage_ring_05.mp3" name="FX - Alarm clock ring" downloadtype="progressive" subtype="soundeffect" duration="4232"/>
+	<sound id="alarm_clock_vintage_ring_05.mp3" name="Alarm clock ring" downloadtype="progressive" subtype="soundeffect" duration="4232"/>
 	<sound id="ambulance_siren_02.mp3" name="Ambience - Ambulance siren" downloadtype="progressive" subtype="soundeffect" duration="20245"/>
-	<sound id="apples_and_oranges_tag.mp3" name="FX - Logo - apples and oranges" downloadtype="progressive" subtype="soundeffect" duration="5251"/>
-	<sound id="artillery_explosion_09.mp3" name="FX - Explosion - artillery" downloadtype="progressive" subtype="soundeffect" duration="6008"/>
-	<sound id="away_we_go_tag.mp3" name="FX - Logo - away we go" downloadtype="progressive" subtype="soundeffect" duration="11102"/>
-	<sound id="baby_boy_cry_many_08.mp3" name="FX - Baby cry" downloadtype="progressive" subtype="soundeffect" duration="6740"/>
-	<sound id="balloon_pop_15.mp3" name="FX - Balloon pop" downloadtype="progressive" subtype="soundeffect" duration="496"/>
-	<sound id="big_nasty_beast_groan_01.mp3" name="FX - Beast groan" downloadtype="progressive" subtype="soundeffect" duration="3553"/>
-	<sound id="bird_wings_flap_02.mp3" name="FX - Wings flap" downloadtype="progressive" subtype="soundeffect" duration="3474"/>
-	<sound id="blood_pressure_gauge_inflate_02.mp3" name="FX - Blood pressure gauge inflate" downloadtype="progressive" subtype="soundeffect" duration="3762"/>
-	<sound id="blood_splat_05.mp3" name="FX - Blood splat" downloadtype="progressive" subtype="soundeffect" duration="1019"/>
-	<sound id="body_fall_floor_01.mp3" name="FX - Body fall" downloadtype="progressive" subtype="soundeffect" duration="967"/>
-	<sound id="bone_break_02.mp3" name="FX - Bone break" downloadtype="progressive" subtype="soundeffect" duration="601"/>
-	<sound id="borgman_1.mp3" name="FX - Robot saying &quot;one&quot;" downloadtype="progressive" subtype="soundeffect" duration="1019"/>
-	<sound id="borgman_2.mp3" name="FX - Robot saying &quot;two&quot;" downloadtype="progressive" subtype="soundeffect" duration="993"/>
-	<sound id="borgman_3.mp3" name="FX - Robot saying &quot;three&quot;" downloadtype="progressive" subtype="soundeffect" duration="1149"/>
-	<sound id="borgman_4.mp3" name="FX - Robot saying &quot;four&quot;" downloadtype="progressive" subtype="soundeffect" duration="993"/>
-	<sound id="borgman_5.mp3" name="FX - Robot saying &quot;five&quot;" downloadtype="progressive" subtype="soundeffect" duration="940"/>
-	<sound id="borgman_thank_you.mp3" name="FX - Robot saying &quot;thank you&quot;" downloadtype="progressive" subtype="soundeffect" duration="1123"/>
-	<sound id="bounce_boing_01.mp3" name="FX - Bounce boing" downloadtype="progressive" subtype="soundeffect" duration="1045"/>
-	<sound id="burp_01.mp3" name="FX - Burp" downloadtype="progressive" subtype="soundeffect" duration="627"/>
+	<sound id="apples_and_oranges_tag.mp3" name="Logo - apples and oranges" downloadtype="progressive" subtype="soundeffect" duration="5251"/>
+	<sound id="artillery_explosion_09.mp3" name="Explosion - artillery" downloadtype="progressive" subtype="soundeffect" duration="6008"/>
+	<sound id="away_we_go_tag.mp3" name="Logo - away we go" downloadtype="progressive" subtype="soundeffect" duration="11102"/>
+	<sound id="baby_boy_cry_many_08.mp3" name="Baby cry" downloadtype="progressive" subtype="soundeffect" duration="6740"/>
+	<sound id="balloon_pop_15.mp3" name="Balloon pop" downloadtype="progressive" subtype="soundeffect" duration="496"/>
+	<sound id="big_nasty_beast_groan_01.mp3" name="Beast groan" downloadtype="progressive" subtype="soundeffect" duration="3553"/>
+	<sound id="bird_wings_flap_02.mp3" name="Wings flap" downloadtype="progressive" subtype="soundeffect" duration="3474"/>
+	<sound id="blood_pressure_gauge_inflate_02.mp3" name="Blood pressure gauge inflate" downloadtype="progressive" subtype="soundeffect" duration="3762"/>
+	<sound id="blood_splat_05.mp3" name="Blood splat" downloadtype="progressive" subtype="soundeffect" duration="1019"/>
+	<sound id="body_fall_floor_01.mp3" name="Body fall" downloadtype="progressive" subtype="soundeffect" duration="967"/>
+	<sound id="bone_break_02.mp3" name="Bone break" downloadtype="progressive" subtype="soundeffect" duration="601"/>
+	<sound id="borgman_1.mp3" name="Robot saying &quot;one&quot;" downloadtype="progressive" subtype="soundeffect" duration="1019"/>
+	<sound id="borgman_2.mp3" name="Robot saying &quot;two&quot;" downloadtype="progressive" subtype="soundeffect" duration="993"/>
+	<sound id="borgman_3.mp3" name="Robot saying &quot;three&quot;" downloadtype="progressive" subtype="soundeffect" duration="1149"/>
+	<sound id="borgman_4.mp3" name="Robot saying &quot;four&quot;" downloadtype="progressive" subtype="soundeffect" duration="993"/>
+	<sound id="borgman_5.mp3" name="Robot saying &quot;five&quot;" downloadtype="progressive" subtype="soundeffect" duration="940"/>
+	<sound id="borgman_thank_you.mp3" name="Robot saying &quot;thank you&quot;" downloadtype="progressive" subtype="soundeffect" duration="1123"/>
+	<sound id="bounce_boing_01.mp3" name="High Bounce boing" downloadtype="progressive" subtype="soundeffect" duration="1045"/>
+	<sound id="burp_01.mp3" name="Burp" downloadtype="progressive" subtype="soundeffect" duration="627"/>
 	<sound id="campfire_04_30.mp3" name="Ambience - Campfire" downloadtype="progressive" subtype="soundeffect" duration="30668"/>
-	<sound id="car_away_squeal_04.mp3" name="FX - Car squeal" downloadtype="progressive" subtype="soundeffect" duration="7680"/>
-	<sound id="car_turn_signal_01.mp3" name="FX - Car turn signal" downloadtype="progressive" subtype="soundeffect" duration="6400"/>
-	<sound id="cartoon_electronics_loop.mp3" name="FX - Cartoon digital sound" downloadtype="progressive" subtype="soundeffect" duration="2586"/>
-	<sound id="cat_meow_10.mp3" name="FX - Cat meow - old cat" downloadtype="progressive" subtype="soundeffect" duration="1463"/>
-	<sound id="cathedral_bell_ring_8_oclock.mp3" name="FX - Cathedral bell" downloadtype="progressive" subtype="soundeffect" duration="25678"/>
-	<sound id="cell_phone_buzz_03.mp3" name="FX - Cell phone buzz" downloadtype="progressive" subtype="soundeffect" duration="1829"/>
-	<sound id="cell_phone_dial_06.mp3" name="FX - Cell phone dial" downloadtype="progressive" subtype="soundeffect" duration="2717"/>
+	<sound id="car_away_squeal_04.mp3" name="Car squeal" downloadtype="progressive" subtype="soundeffect" duration="7680"/>
+	<sound id="car_turn_signal_01.mp3" name="Car turn signal" downloadtype="progressive" subtype="soundeffect" duration="6400"/>
+	<sound id="cartoon_electronics_loop.mp3" name="Cartoon digital sound" downloadtype="progressive" subtype="soundeffect" duration="2586"/>
+	<sound id="cat_meow_10.mp3" name="Cat meow - old cat" downloadtype="progressive" subtype="soundeffect" duration="1463"/>
+	<sound id="cathedral_bell_ring_8_oclock.mp3" name="Cathedral bell" downloadtype="progressive" subtype="soundeffect" duration="25678"/>
+	<sound id="cell_phone_buzz_03.mp3" name="Cell phone buzz" downloadtype="progressive" subtype="soundeffect" duration="1829"/>
+	<sound id="cell_phone_dial_06.mp3" name="Cell phone dial" downloadtype="progressive" subtype="soundeffect" duration="2717"/>
 	<sound id="centrifugal_rotor_running_v01_30_loop.mp3" name="Ambience - Rotor running" downloadtype="progressive" subtype="soundeffect" duration="31556"/>
 	<sound id="chicks_peeping_01.mp3" name="Ambience - Chicken peep" downloadtype="progressive" subtype="soundeffect" duration="44487"/>
-	<sound id="cinematic_hit_explosion_04.mp3" name="FX - Explosion - cinematic" downloadtype="progressive" subtype="soundeffect" duration="1750"/>
+	<sound id="cinematic_hit_explosion_04.mp3" name="Explosion - cinematic" downloadtype="progressive" subtype="soundeffect" duration="1750"/>
 	<sound id="commercial_jet_interior_06_60_loop.mp3" name="Ambience - On the plane" downloadtype="progressive" subtype="soundeffect" duration="60656"/>
-	<sound id="computer_keyboard_01.mp3" name="FX - Typing - computer keyboard" downloadtype="progressive" subtype="soundeffect" duration="209"/>
-	<sound id="computer_mouse_click_01.mp3" name="FX - Mouse click" downloadtype="progressive" subtype="soundeffect" duration="235"/>
-	<sound id="cop_show_tag.mp3" name="FX - Logo - cop show" downloadtype="progressive" subtype="soundeffect" duration="5851"/>
+	<sound id="computer_keyboard_01.mp3" name="Typing - computer keyboard" downloadtype="progressive" subtype="soundeffect" duration="209"/>
+	<sound id="computer_mouse_click_01.mp3" name="Mouse click" downloadtype="progressive" subtype="soundeffect" duration="235"/>
+	<sound id="cop_show_tag.mp3" name="Logo - cop show" downloadtype="progressive" subtype="soundeffect" duration="5851"/>
 	<sound id="county_highway_ambience_02.mp3" name="Ambience - County Highway" downloadtype="progressive" subtype="soundeffect" duration="49398"/>
-	<sound id="cow_moo_01.mp3" name="FX - Cow moo" downloadtype="progressive" subtype="soundeffect" duration="1515"/>
-	<sound id="creature_footstep_large_var_02_03.mp3" name="FX - Footstep - heavy" downloadtype="progressive" subtype="soundeffect" duration="1019"/>
-	<sound id="cuckoo_clock_ring_03_x2.mp3" name="FX - Cuckoo clock" downloadtype="progressive" subtype="soundeffect" duration="4258"/>
+	<sound id="cow_moo_01.mp3" name="Cow moo" downloadtype="progressive" subtype="soundeffect" duration="1515"/>
+	<sound id="creature_footstep_large_var_02_03.mp3" name="Footstep - heavy" downloadtype="progressive" subtype="soundeffect" duration="1019"/>
+	<sound id="cuckoo_clock_ring_03_x2.mp3" name="Cuckoo clock" downloadtype="progressive" subtype="soundeffect" duration="4258"/>
 	<sound id="diesel_train_traveling_01.mp3" name="Ambience - In the train" downloadtype="progressive" subtype="soundeffect" duration="90462"/>
-	<sound id="digital_camera_click_05.mp3" name="FX - Digital camera click" downloadtype="progressive" subtype="soundeffect" duration="836"/>
-	<sound id="digital_lock_access_granted_04.mp3" name="FX - Digital lock access granted" downloadtype="progressive" subtype="soundeffect" duration="810"/>
-	<sound id="dog_bark_cutsie_many_04.mp3" name="FX - Dog bark - small dog" downloadtype="progressive" subtype="soundeffect" duration="1620"/>
-	<sound id="dog_bark_rottweiler_03.mp3" name="FX - Dog bark - big dog" downloadtype="progressive" subtype="soundeffect" duration="575"/>
-	<sound id="dog_panting_short_01.mp3" name="FX - Dog panting" downloadtype="progressive" subtype="soundeffect" duration="3213"/>
+	<sound id="digital_camera_click_05.mp3" name="Digital camera click" downloadtype="progressive" subtype="soundeffect" duration="836"/>
+	<sound id="digital_lock_access_granted_04.mp3" name="Digital lock access granted" downloadtype="progressive" subtype="soundeffect" duration="810"/>
+	<sound id="dog_bark_cutsie_many_04.mp3" name="Dog bark - small dog" downloadtype="progressive" subtype="soundeffect" duration="1620"/>
+	<sound id="dog_bark_rottweiler_03.mp3" name="Dog bark - big dog" downloadtype="progressive" subtype="soundeffect" duration="575"/>
+	<sound id="dog_panting_short_01.mp3" name="Dog panting" downloadtype="progressive" subtype="soundeffect" duration="3213"/>
 	<sound id="dragster_idle_loop_02.mp3" name="Ambience - Dragster idle" downloadtype="progressive" subtype="soundeffect" duration="17998"/>
-	<sound id="drinking_sipping_coffee_01.mp3" name="FX - Sip coffee" downloadtype="progressive" subtype="soundeffect" duration="1698"/>
-	<sound id="drum_accent_comedy_02.mp3" name="FX - Drum accent - comedy" downloadtype="progressive" subtype="soundeffect" duration="2482"/>
-	<sound id="dry_erase_01.mp3" name="FX - Writing - marker" downloadtype="progressive" subtype="soundeffect" duration="5407"/>
-	<sound id="electricity_shock_spark_02.mp3" name="FX - Electricity" downloadtype="progressive" subtype="soundeffect" duration="679"/>
+	<sound id="drinking_sipping_coffee_01.mp3" name="Sip coffee" downloadtype="progressive" subtype="soundeffect" duration="1698"/>
+	<sound id="drum_accent_comedy_02.mp3" name="Drum accent - comedy" downloadtype="progressive" subtype="soundeffect" duration="2482"/>
+	<sound id="dry_erase_01.mp3" name="Writing - marker" downloadtype="progressive" subtype="soundeffect" duration="5407"/>
+	<sound id="electricity_shock_spark_02.mp3" name="Electricity" downloadtype="progressive" subtype="soundeffect" duration="679"/>
 	<sound id="elevator_beep_03.mp3" name="Ambience - In the elevator" downloadtype="progressive" subtype="soundeffect" duration="5329"/>
 	<sound id="fire_truck_scene_of_fire_02.mp3" name="Ambience - Fire scene with fire truck" downloadtype="progressive" subtype="soundeffect" duration="176144"/>
 	<sound id="football_crowd_touchdown_01_loop.mp3" name="Ambience - Stadium" downloadtype="progressive" subtype="soundeffect" duration="16666"/>
-	<sound id="footstep_multiple_dirt_boot_walk_05_loop.mp3" name="FX - Footstep" downloadtype="progressive" subtype="soundeffect" duration="13505"/>
+	<sound id="footstep_multiple_dirt_boot_walk_05_loop.mp3" name="Footstep" downloadtype="progressive" subtype="soundeffect" duration="13505"/>
 	<sound id="fountain_03_30_loop.mp3" name="Ambience - Fountain" downloadtype="progressive" subtype="soundeffect" duration="31608"/>
-	<sound id="goat_bleat_14.mp3" name="FX - Goat bleat" downloadtype="progressive" subtype="soundeffect" duration="1254"/>
-	<sound id="goop_26.mp3" name="FX - Goop" downloadtype="progressive" subtype="soundeffect" duration="261"/>
-	<sound id="guard_dog_barking_06.mp3" name="FX - Dog bark - guard dog" downloadtype="progressive" subtype="soundeffect" duration="8594"/>
-	<sound id="hammering_nail_11.mp3" name="FX - Hammering nail" downloadtype="progressive" subtype="soundeffect" duration="2612"/>
+	<sound id="goat_bleat_14.mp3" name="Goat bleat" downloadtype="progressive" subtype="soundeffect" duration="1254"/>
+	<sound id="goop_26.mp3" name="Goop" downloadtype="progressive" subtype="soundeffect" duration="261"/>
+	<sound id="guard_dog_barking_06.mp3" name="Dog bark - guard dog" downloadtype="progressive" subtype="soundeffect" duration="8594"/>
+	<sound id="hammering_nail_11.mp3" name="Hammering nail" downloadtype="progressive" subtype="soundeffect" duration="2612"/>
 	<sound id="harbor_ambience_02_60_loop.mp3" name="Ambience - Harbor" downloadtype="progressive" subtype="soundeffect" duration="60421"/>
-	<sound id="heart_rate_monitor_03_loop.mp3" name="FX - Heart rate monitor" downloadtype="progressive" subtype="soundeffect" duration="14341"/>
-	<sound id="heartbeat_06_loop.mp3" name="FX - Heartbeat" downloadtype="progressive" subtype="soundeffect" duration="10449"/>
-	<sound id="hollowcore_whoosh_01_medium_01.mp3" name="FX - Whoosh" downloadtype="progressive" subtype="soundeffect" duration="444"/>
-	<sound id="horse_gallop_grass_02.mp3" name="FX - Horse gallop" downloadtype="progressive" subtype="soundeffect" duration="6139"/>
-	<sound id="horse_whinny_exterior_many_02.mp3" name="FX - Horse whinny" downloadtype="progressive" subtype="soundeffect" duration="9038"/>
-	<sound id="key_pickup_01.mp3" name="FX - Key pickup" downloadtype="progressive" subtype="soundeffect" duration="261"/>
-	<sound id="kiss_01.mp3" name="FX - Kiss" downloadtype="progressive" subtype="soundeffect" duration="313"/>
-	<sound id="kitten_meow_07.mp3" name="FX - Cat meow - kitten" downloadtype="progressive" subtype="soundeffect" duration="679"/>
-	<sound id="lake_wave_single_lap_gentle_05.mp3" name="FX - Lake wave" downloadtype="progressive" subtype="soundeffect" duration="1437"/>
+	<sound id="heart_rate_monitor_03_loop.mp3" name="Heart rate monitor" downloadtype="progressive" subtype="soundeffect" duration="14341"/>
+	<sound id="heartbeat_06_loop.mp3" name="Heartbeat" downloadtype="progressive" subtype="soundeffect" duration="10449"/>
+	<sound id="hollowcore_whoosh_01_medium_01.mp3" name="Whoosh" downloadtype="progressive" subtype="soundeffect" duration="444"/>
+	<sound id="horse_gallop_grass_02.mp3" name="Horse gallop" downloadtype="progressive" subtype="soundeffect" duration="6139"/>
+	<sound id="horse_whinny_exterior_many_02.mp3" name="Horse whinny" downloadtype="progressive" subtype="soundeffect" duration="9038"/>
+	<sound id="key_pickup_01.mp3" name="Key pickup" downloadtype="progressive" subtype="soundeffect" duration="261"/>
+	<sound id="kiss_01.mp3" name="Kiss" downloadtype="progressive" subtype="soundeffect" duration="313"/>
+	<sound id="kitten_meow_07.mp3" name="Cat meow - kitten" downloadtype="progressive" subtype="soundeffect" duration="679"/>
+	<sound id="lake_wave_single_lap_gentle_05.mp3" name="Lake wave" downloadtype="progressive" subtype="soundeffect" duration="1437"/>
 	<sound id="lear_jet_flyby_04.mp3" name="Ambience - Jet flyby" downloadtype="progressive" subtype="soundeffect" duration="18625"/>
-	<sound id="lion_african_01_roar_03.mp3" name="FX - Lion roar - short" downloadtype="progressive" subtype="soundeffect" duration="967"/>
-	<sound id="lion_african_02_roar_03.mp3" name="FX - Lion roar - deep" downloadtype="progressive" subtype="soundeffect" duration="1358"/>
-	<sound id="magic_marker_01.mp3" name="FX - Marker write" downloadtype="progressive" subtype="soundeffect" duration="444"/>
-	<sound id="male_scream_01.mp3" name="FX - Scream - male" downloadtype="progressive" subtype="soundeffect" duration="1411"/>
-	<sound id="MRI_machine_capturing_01.mp3" name="FX - MRI machine" downloadtype="progressive" subtype="soundeffect" duration="6740"/>
-	<sound id="new_moon_tag.mp3" name="FX - Logo - new moon" downloadtype="progressive" subtype="soundeffect" duration="1384"/>
-	<sound id="noise_sweep_energy_powerup_05.mp3" name="FX - Noise" downloadtype="progressive" subtype="soundeffect" duration="1306"/>
+	<sound id="lion_african_01_roar_03.mp3" name="Lion roar - short" downloadtype="progressive" subtype="soundeffect" duration="967"/>
+	<sound id="lion_african_02_roar_03.mp3" name="Lion roar - deep" downloadtype="progressive" subtype="soundeffect" duration="1358"/>
+	<sound id="magic_marker_01.mp3" name="Marker write" downloadtype="progressive" subtype="soundeffect" duration="444"/>
+	<sound id="male_scream_01.mp3" name="Scream - male" downloadtype="progressive" subtype="soundeffect" duration="1411"/>
+	<sound id="MRI_machine_capturing_01.mp3" name="MRI machine" downloadtype="progressive" subtype="soundeffect" duration="6740"/>
+	<sound id="new_moon_tag.mp3" name="Logo - new moon" downloadtype="progressive" subtype="soundeffect" duration="1384"/>
+	<sound id="noise_sweep_energy_powerup_05.mp3" name="Noise" downloadtype="progressive" subtype="soundeffect" duration="1306"/>
 	<sound id="ocean_surf_seagulls_01_30_loop.mp3" name="Ambience - Ocean" downloadtype="progressive" subtype="soundeffect" duration="30459"/>
-	<sound id="office_phone_ring_single_02.mp3" name="FX - Office phone ring" downloadtype="progressive" subtype="soundeffect" duration="1176"/>
-	<sound id="padlock_key_unlock_04.mp3" name="FX - Padlock key unlock" downloadtype="progressive" subtype="soundeffect" duration="183"/>
-	<sound id="paper_tear_02.mp3" name="FX - Paper tear" downloadtype="progressive" subtype="soundeffect" duration="444"/>
-	<sound id="pay_phone_receiver_hangup_03.mp3" name="FX - Phone handup" downloadtype="progressive" subtype="soundeffect" duration="366"/>
-	<sound id="pencil_check_box_04.mp3" name="FX - Pencil - check box" downloadtype="progressive" subtype="soundeffect" duration="261"/>
-	<sound id="pig_grunt_breath_02.mp3" name="FX - Pig breath" downloadtype="progressive" subtype="soundeffect" duration="7576"/>
-	<sound id="pigs_eating_04.mp3" name="FX - Pig eat" downloadtype="progressive" subtype="soundeffect" duration="9378"/>
-	<sound id="pool_ball_06.mp3" name="FX - Pool ball" downloadtype="progressive" subtype="soundeffect" duration="836"/>
+	<sound id="office_phone_ring_single_02.mp3" name="Office phone ring" downloadtype="progressive" subtype="soundeffect" duration="1176"/>
+	<sound id="padlock_key_unlock_04.mp3" name="Padlock key unlock" downloadtype="progressive" subtype="soundeffect" duration="183"/>
+	<sound id="paper_tear_02.mp3" name="Paper tear" downloadtype="progressive" subtype="soundeffect" duration="444"/>
+	<sound id="pay_phone_receiver_hangup_03.mp3" name="Phone handup" downloadtype="progressive" subtype="soundeffect" duration="366"/>
+	<sound id="pencil_check_box_04.mp3" name="Pencil - check box" downloadtype="progressive" subtype="soundeffect" duration="261"/>
+	<sound id="pig_grunt_breath_02.mp3" name="Pig breath" downloadtype="progressive" subtype="soundeffect" duration="7576"/>
+	<sound id="pigs_eating_04.mp3" name="Pig eat" downloadtype="progressive" subtype="soundeffect" duration="9378"/>
+	<sound id="pool_ball_06.mp3" name="Pool ball" downloadtype="progressive" subtype="soundeffect" duration="836"/>
 	<sound id="rain_alley_medium_03_60_loop.mp3" name="Ambience - Rain" downloadtype="progressive" subtype="soundeffect" duration="60630"/>
 	<sound id="record_needle_static_loop_06.mp3" name="Ambience - Record needle" downloadtype="progressive" subtype="soundeffect" duration="3657"/>
 	<sound id="restaurant_ambience_04_60_loop.mp3" name="Ambience - Restaurant" downloadtype="progressive" subtype="soundeffect" duration="59690"/>
-	<sound id="reverb_hi_imaging_element_05.mp3" name="FX - Logo - reverb high tech imaging" downloadtype="progressive" subtype="soundeffect" duration="2586"/>
-	<sound id="rooster_crow_01.mp3" name="FX - Rooster crow" downloadtype="progressive" subtype="soundeffect" duration="2220"/>
-	<sound id="scissors_cut_04.mp3" name="FX - Scissor - few cut" downloadtype="progressive" subtype="soundeffect" duration="2769"/>
-	<sound id="scissors_cut_single_02.mp3" name="FX - Scissor - long single cut" downloadtype="progressive" subtype="soundeffect" duration="601"/>
-	<sound id="scissors_snip_05.mp3" name="FX - Scissor - sharp single cut" downloadtype="progressive" subtype="soundeffect" duration="470"/>
-	<sound id="sheep_bah_08.mp3" name="FX - Sheep bah" downloadtype="progressive" subtype="soundeffect" duration="862"/>
-	<sound id="shimmer_accent_02.mp3" name="FX - Logo - shimmer accent" downloadtype="progressive" subtype="soundeffect" duration="3109"/>
-	<sound id="shopping_cart_roll_cement_long_02.mp3" name="FX - Shopping cart rolling" downloadtype="progressive" subtype="soundeffect" duration="21211"/>
+	<sound id="reverb_hi_imaging_element_05.mp3" name="Logo - reverb high tech imaging" downloadtype="progressive" subtype="soundeffect" duration="2586"/>
+	<sound id="rooster_crow_01.mp3" name="Rooster crow" downloadtype="progressive" subtype="soundeffect" duration="2220"/>
+	<sound id="scissors_cut_04.mp3" name="Scissor - few cut" downloadtype="progressive" subtype="soundeffect" duration="2769"/>
+	<sound id="scissors_cut_single_02.mp3" name="Scissor - long single cut" downloadtype="progressive" subtype="soundeffect" duration="601"/>
+	<sound id="scissors_snip_05.mp3" name="Scissor - sharp single cut" downloadtype="progressive" subtype="soundeffect" duration="470"/>
+	<sound id="sheep_bah_08.mp3" name="Sheep bah" downloadtype="progressive" subtype="soundeffect" duration="862"/>
+	<sound id="shimmer_accent_02.mp3" name="Logo - shimmer accent" downloadtype="progressive" subtype="soundeffect" duration="3109"/>
+	<sound id="shopping_cart_roll_cement_long_02.mp3" name="Shopping cart rolling" downloadtype="progressive" subtype="soundeffect" duration="21211"/>
 	<sound id="shower_02.mp3" name="Ambience - Shower" downloadtype="progressive" subtype="soundeffect" duration="22413"/>
-	<sound id="sigh_02.mp3" name="FX - Sigh" downloadtype="progressive" subtype="soundeffect" duration="914"/>
-	<sound id="sleigh_bells_02_05_loop.mp3" name="FX - Sleigh bells" downloadtype="progressive" subtype="soundeffect" duration="5094"/>
-	<sound id="slide_whistle_down_04.mp3" name="FX - Slide whistle - down" downloadtype="progressive" subtype="soundeffect" duration="496"/>
-	<sound id="slide_whistle_up_04.mp3" name="FX - Slide whistle - up" downloadtype="progressive" subtype="soundeffect" duration="627"/>
-	<sound id="slime_squishy_loop_04.mp3" name="FX - Slime squishy" downloadtype="progressive" subtype="soundeffect" duration="30224"/>
-	<sound id="snare_bass_drum_cymbal_02.mp3" name="FX - Drum - snare bass cymbal" downloadtype="progressive" subtype="soundeffect" duration="2299"/>
-	<sound id="soccer_pass_01.mp3" name="FX - Soccer pass" downloadtype="progressive" subtype="soundeffect" duration="392"/>
-	<sound id="splash_06.mp3" name="FX - Splash" downloadtype="progressive" subtype="soundeffect" duration="1907"/>
-	<sound id="stomach_gurgle_01.mp3" name="FX - Stomach gurgle" downloadtype="progressive" subtype="soundeffect" duration="2194"/>
+	<sound id="sigh_02.mp3" name="Sigh" downloadtype="progressive" subtype="soundeffect" duration="914"/>
+	<sound id="sleigh_bells_02_05_loop.mp3" name="Sleigh bells" downloadtype="progressive" subtype="soundeffect" duration="5094"/>
+	<sound id="slide_whistle_down_04.mp3" name="Slide whistle - down" downloadtype="progressive" subtype="soundeffect" duration="496"/>
+	<sound id="slide_whistle_up_04.mp3" name="Slide whistle - up" downloadtype="progressive" subtype="soundeffect" duration="627"/>
+	<sound id="slime_squishy_loop_04.mp3" name="Slime squishy" downloadtype="progressive" subtype="soundeffect" duration="30224"/>
+	<sound id="snare_bass_drum_cymbal_02.mp3" name="Drum - snare bass cymbal" downloadtype="progressive" subtype="soundeffect" duration="2299"/>
+	<sound id="soccer_pass_01.mp3" name="Soccer pass" downloadtype="progressive" subtype="soundeffect" duration="392"/>
+	<sound id="splash_06.mp3" name="Splash" downloadtype="progressive" subtype="soundeffect" duration="1907"/>
+	<sound id="stomach_gurgle_01.mp3" name="Stomach gurgle" downloadtype="progressive" subtype="soundeffect" duration="2194"/>
 	<sound id="subway_nyc_arrive_and_depart_04.mp3" name="Ambience - Subway - arrive and depart" downloadtype="progressive" subtype="soundeffect" duration="85107"/>
 	<sound id="supermarket_ambience_loop_02_a.mp3" name="Ambience - Supermarket" downloadtype="progressive" subtype="soundeffect" duration="13322"/>
-	<sound id="telephony_type_01_keypad_tone_pound.mp3" name="FX - Keypad" downloadtype="progressive" subtype="soundeffect" duration="157"/>
-	<sound id="thunder_clap_09.mp3" name="FX - Thunder" downloadtype="progressive" subtype="soundeffect" duration="6217"/>
-	<sound id="tire_skid_squeal_07.mp3" name="FX - Tire squeal" downloadtype="progressive" subtype="soundeffect" duration="810"/>
-	<sound id="toothbrush_manual_01_30_loop.mp3" name="FX - Toothbrush" downloadtype="progressive" subtype="soundeffect" duration="30380"/>
+	<sound id="telephony_type_01_keypad_tone_pound.mp3" name="Keypad" downloadtype="progressive" subtype="soundeffect" duration="157"/>
+	<sound id="thunder_clap_09.mp3" name="Thunder" downloadtype="progressive" subtype="soundeffect" duration="6217"/>
+	<sound id="tire_skid_squeal_07.mp3" name="Tire squeal" downloadtype="progressive" subtype="soundeffect" duration="810"/>
+	<sound id="toothbrush_manual_01_30_loop.mp3" name="Toothbrush" downloadtype="progressive" subtype="soundeffect" duration="30380"/>
 	<sound id="train_station_ambience_01_120_loop.mp3" name="Ambience - Train station" downloadtype="progressive" subtype="soundeffect" duration="119197"/>
-	<sound id="typewriter_typing_02.mp3" name="FX - Typing - typewriter" downloadtype="progressive" subtype="soundeffect" duration="6687"/>
-	<sound id="up_up_and_away_tag_01.mp3" name="FX - Logo - up up and away" downloadtype="progressive" subtype="soundeffect" duration="5146"/>
+	<sound id="typewriter_typing_02.mp3" name="Typing - typewriter" downloadtype="progressive" subtype="soundeffect" duration="6687"/>
+	<sound id="up_up_and_away_tag_01.mp3" name="Logo - up up and away" downloadtype="progressive" subtype="soundeffect" duration="5146"/>
 	<sound id="war_ambience_01_120_loop.mp3" name="Ambience - War" downloadtype="progressive" subtype="soundeffect" duration="120973"/>
-	<sound id="water_bubble_lite_01.mp3" name="FX - Water bubble" downloadtype="progressive" subtype="soundeffect" duration="1045"/>
+	<sound id="water_bubble_lite_01.mp3" name="Water bubble" downloadtype="progressive" subtype="soundeffect" duration="1045"/>
 	<sound id="waves_01__60_loop.mp3" name="Ambience - Waves" downloadtype="progressive" subtype="soundeffect" duration="58436"/>
-	<sound id="whistle_referee_04.mp3" name="FX - Whistle referee" downloadtype="progressive" subtype="soundeffect" duration="444"/>
-	<sound id="white_noise_18db_loop.mp3" name="FX - White noise 18db" downloadtype="progressive" subtype="soundeffect" duration="30877"/>
+	<sound id="whistle_referee_04.mp3" name="Whistle referee" downloadtype="progressive" subtype="soundeffect" duration="444"/>
+	<sound id="white_noise_18db_loop.mp3" name="White noise 18db" downloadtype="progressive" subtype="soundeffect" duration="30877"/>
 	<sound id="wind_blustery_01_loop.mp3" name="Ambience - Wind blustery" downloadtype="progressive" subtype="soundeffect" duration="21969"/>
-	<sound id="young_girl_scream_01.mp3" name="FX - Scream - female" downloadtype="progressive" subtype="soundeffect" duration="731"/>
+	<sound id="young_girl_scream_01.mp3" name="Scream - female" downloadtype="progressive" subtype="soundeffect" duration="731"/>
 	<sound id="122_short_dance_of_the_sugar_plum_fairy_0061.mp3" name="Dance of the Sugar Plum Fairy" downloadtype="progressive" subtype="bgmusic" duration="60473"/>
 	<sound id="129_short_deck_the_hall_jazz_classic_0069.mp3" name="Deck the Hall (jazz classic)" downloadtype="progressive" subtype="bgmusic" duration="68728"/>
 	<sound id="135_short_silent_night_2_0069.mp3" name="Silent Night" downloadtype="progressive" subtype="bgmusic" duration="68441"/>
@@ -18262,49 +18263,64 @@
 	<sound id="warm_sunshine_full.mp3" name="Warm Sunshine" downloadtype="progressive" subtype="bgmusic" duration="110707" team="1"/>
 	<sound id="wide_water_full.mp3" name="Wide Water" downloadtype="progressive" subtype="bgmusic" duration="163788" team="1"/>
 	<sound id="winding_on_full.mp3" name="Winding On" downloadtype="progressive" subtype="bgmusic" duration="154540" team="1"/>
-	<sound id="kazoo_fanfare_03.mp3" name="FX - Kazoo - fanfare" downloadtype="progressive" subtype="soundeffect" duration="1332"/>
-	<sound id="kazoo_you_lose_01.mp3" name="FX - Kazoo - you lose" downloadtype="progressive" subtype="soundeffect" duration="940"/>
-	<sound id="orchestra_tuning_01.mp3" name="FX - Orchestra tuning" downloadtype="progressive" subtype="soundeffect" duration="10710"/>
-	<sound id="snare_drum_rimshot_cymbal_02.mp3" name="FX - Drums" downloadtype="progressive" subtype="soundeffect" duration="1541"/>
-	<sound id="guitar_wank_19.mp3" name="FX - Electric guitar" downloadtype="progressive" subtype="soundeffect" duration="1907"/>
-	<sound id="snare_drum_roll_02.mp3" name="FX - Marching snare drum" downloadtype="progressive" subtype="soundeffect" duration="1515"/>
-	<sound id="2357_04.mp3" name="FX - Computer beep" downloadtype="progressive" subtype="soundeffect" duration="105"/>
-	<sound id="ah_yeah.mp3" name="FX - Game level up" downloadtype="progressive" subtype="soundeffect" duration="627"/>
-	<sound id="alien_console_loop.mp3" name="FX - Alien sound" downloadtype="progressive" subtype="soundeffect" duration="2325"/>
-	<sound id="audience_boo_01.mp3" name="FX - Booing" downloadtype="progressive" subtype="soundeffect" duration="3971"/>
-	<sound id="audience_cheers_04.mp3" name="FX - Cheering" downloadtype="progressive" subtype="soundeffect" duration="9456"/>
-	<sound id="auditorium_audience_applause_big_05.mp3" name="FX - Applause" downloadtype="progressive" subtype="soundeffect" duration="6766"/>
-	<sound id="chime_flourish_05.mp3" name="FX - Chime" downloadtype="progressive" subtype="soundeffect" duration="2090"/>
-	<sound id="digital_camera_auto_clicks_01.mp3" name="FX - Camera burst mode" downloadtype="progressive" subtype="soundeffect" duration="1202"/>
-	<sound id="electric_sting.mp3" name="FX - Laser" downloadtype="progressive" subtype="soundeffect" duration="444"/>
-	<sound id="floing_01.mp3" name="FX - Low bounce" downloadtype="progressive" subtype="soundeffect" duration="340"/>
-	<sound id="freaky_ghost_loop.mp3" name="FX - Freaky ghost" downloadtype="progressive" subtype="soundeffect" duration="4937"/>
-	<sound id="fred_rogers.mp3" name="FX - Computer start" downloadtype="progressive" subtype="soundeffect" duration="2325"/>
-	<sound id="fwip_01.mp3" name="FX - Digital beep" downloadtype="progressive" subtype="soundeffect" duration="131"/>
-	<sound id="FX___Aluminium_baseball_bat.mp3" name="FX - Baseball bat" downloadtype="progressive" subtype="soundeffect" duration="418"/>
-	<sound id="horn_lose_05.mp3" name="FX - Horn lose" downloadtype="progressive" subtype="soundeffect" duration="1280"/>
-	<sound id="magic_crystal_interface_42.mp3" name="FX - Crystal" downloadtype="progressive" subtype="soundeffect" duration="758"/>
-	<sound id="medium_audience_laughter_01.mp3" name="FX - Audience laughter" downloadtype="progressive" subtype="soundeffect" duration="11624"/>
-	<sound id="notifier_03.mp3" name="FX - Soft beep" downloadtype="progressive" subtype="soundeffect" duration="575"/>
-	<sound id="notifier_07.mp3" name="FX - Alert beep" downloadtype="progressive" subtype="soundeffect" duration="784"/>
-	<sound id="orchestral_ta_da_stinger_01.mp3" name="FX - Transition - good ending" downloadtype="progressive" subtype="soundeffect" duration="5721"/>
-	<sound id="orchestral_transition_stinger_01.mp3" name="FX - Transition - discovery" downloadtype="progressive" subtype="soundeffect" duration="4206"/>
-	<sound id="orchestral_transition_stinger_02.mp3" name="FX - Transition - mystery" downloadtype="progressive" subtype="soundeffect" duration="5669"/>
-	<sound id="orchestral_transition_stinger_03.mp3" name="FX - Transition - mystery short" downloadtype="progressive" subtype="soundeffect" duration="3500"/>
-	<sound id="orchestral_transition_stinger_06.mp3" name="FX - Transition - ancient hero" downloadtype="progressive" subtype="soundeffect" duration="4598"/>
-	<sound id="orchestral_transition_stinger_07.mp3" name="FX - Transition - danger" downloadtype="progressive" subtype="soundeffect" duration="4545"/>
-	<sound id="playful_navigation_04.mp3" name="FX - Clicker - up" downloadtype="progressive" subtype="soundeffect" duration="496"/>
-	<sound id="playful_navigation_05.mp3" name="FX - Clicker - down" downloadtype="progressive" subtype="soundeffect" duration="575"/>
-	<sound id="playful_navigation_06.mp3" name="FX - Guiro" downloadtype="progressive" subtype="soundeffect" duration="731"/>
-	<sound id="playful_navigation_09.mp3" name="FX - Ding" downloadtype="progressive" subtype="soundeffect" duration="731"/>
-	<sound id="pop_01a.mp3" name="FX - Pop - short" downloadtype="progressive" subtype="soundeffect" duration="313"/>
-	<sound id="pop_02a.mp3" name="FX - Pop - open" downloadtype="progressive" subtype="soundeffect" duration="313"/>
-	<sound id="slot_machine_win_jackpot_03.mp3" name="FX - Jackpot" downloadtype="progressive" subtype="soundeffect" duration="30720"/>
-	<sound id="subtle_tech_interface_17.mp3" name="FX - Select" downloadtype="progressive" subtype="soundeffect" duration="287"/>
-	<sound id="talk_show_audience_laughter_08.mp3" name="FX - Audience laughter - short" downloadtype="progressive" subtype="soundeffect" duration="3709"/>
-	<sound id="theater_audience_laughter_01.mp3" name="FX - Audience laughter" downloadtype="progressive" subtype="soundeffect" duration="6870"/>
-	<sound id="water_bubbling_long_04.mp3" name="FX - Bubbling" downloadtype="progressive" subtype="soundeffect" duration="24607"/>
-	<sound id="whistle_11.mp3" name="FX - Whistle" downloadtype="progressive" subtype="soundeffect" duration="758"/>
+	<sound id="kazoo_fanfare_03.mp3" name="Kazoo - fanfare" downloadtype="progressive" subtype="soundeffect" duration="1332"/>
+	<sound id="kazoo_you_lose_01.mp3" name="Kazoo - you lose" downloadtype="progressive" subtype="soundeffect" duration="940"/>
+	<sound id="orchestra_tuning_01.mp3" name="Orchestra tuning" downloadtype="progressive" subtype="soundeffect" duration="10710"/>
+	<sound id="snare_drum_rimshot_cymbal_02.mp3" name="Drums" downloadtype="progressive" subtype="soundeffect" duration="1541"/>
+	<sound id="guitar_wank_19.mp3" name="Electric guitar" downloadtype="progressive" subtype="soundeffect" duration="1907"/>
+	<sound id="snare_drum_roll_02.mp3" name="Marching snare drum" downloadtype="progressive" subtype="soundeffect" duration="1515"/>
+	<sound id="2357_04.mp3" name="Computer beep" downloadtype="progressive" subtype="soundeffect" duration="105"/>
+	<sound id="ah_yeah.mp3" name="Game level up" downloadtype="progressive" subtype="soundeffect" duration="627"/>
+	<sound id="alien_console_loop.mp3" name="Alien sound" downloadtype="progressive" subtype="soundeffect" duration="2325"/>
+	<sound id="audience_boo_01.mp3" name="Booing" downloadtype="progressive" subtype="soundeffect" duration="3971"/>
+	<sound id="audience_cheers_04.mp3" name="Cheering" downloadtype="progressive" subtype="soundeffect" duration="9456"/>
+	<sound id="auditorium_audience_applause_big_05.mp3" name="Applause" downloadtype="progressive" subtype="soundeffect" duration="6766"/>
+	<sound id="chime_flourish_05.mp3" name="Chime" downloadtype="progressive" subtype="soundeffect" duration="2090"/>
+	<sound id="digital_camera_auto_clicks_01.mp3" name="Camera burst mode" downloadtype="progressive" subtype="soundeffect" duration="1202"/>
+	<sound id="electric_sting.mp3" name="Laser" downloadtype="progressive" subtype="soundeffect" duration="444"/>
+	<sound id="floing_01.mp3" name="Low bounce" downloadtype="progressive" subtype="soundeffect" duration="340"/>
+	<sound id="freaky_ghost_loop.mp3" name="Freaky ghost" downloadtype="progressive" subtype="soundeffect" duration="4937"/>
+	<sound id="fred_rogers.mp3" name="Computer start" downloadtype="progressive" subtype="soundeffect" duration="2325"/>
+	<sound id="fwip_01.mp3" name="Digital beep" downloadtype="progressive" subtype="soundeffect" duration="131"/>
+	<sound id="FX___Aluminium_baseball_bat.mp3" name="Baseball bat" downloadtype="progressive" subtype="soundeffect" duration="418"/>
+	<sound id="horn_lose_05.mp3" name="Horn lose" downloadtype="progressive" subtype="soundeffect" duration="1280"/>
+	<sound id="magic_crystal_interface_42.mp3" name="Crystal" downloadtype="progressive" subtype="soundeffect" duration="758"/>
+	<sound id="medium_audience_laughter_01.mp3" name="Audience laughter" downloadtype="progressive" subtype="soundeffect" duration="11624"/>
+	<sound id="notifier_03.mp3" name="Soft beep" downloadtype="progressive" subtype="soundeffect" duration="575"/>
+	<sound id="notifier_07.mp3" name="Alert beep" downloadtype="progressive" subtype="soundeffect" duration="784"/>
+	<sound id="orchestral_ta_da_stinger_01.mp3" name="Transition - good ending" downloadtype="progressive" subtype="soundeffect" duration="5721"/>
+	<sound id="orchestral_transition_stinger_01.mp3" name="Transition - discovery" downloadtype="progressive" subtype="soundeffect" duration="4206"/>
+	<sound id="orchestral_transition_stinger_02.mp3" name="Transition - mystery" downloadtype="progressive" subtype="soundeffect" duration="5669"/>
+	<sound id="orchestral_transition_stinger_03.mp3" name="Transition - mystery short" downloadtype="progressive" subtype="soundeffect" duration="3500"/>
+	<sound id="orchestral_transition_stinger_06.mp3" name="Transition - ancient hero" downloadtype="progressive" subtype="soundeffect" duration="4598"/>
+	<sound id="orchestral_transition_stinger_07.mp3" name="Transition - danger" downloadtype="progressive" subtype="soundeffect" duration="4545"/>
+	<sound id="playful_navigation_04.mp3" name="Clicker - up" downloadtype="progressive" subtype="soundeffect" duration="496"/>
+	<sound id="playful_navigation_05.mp3" name="Clicker - down" downloadtype="progressive" subtype="soundeffect" duration="575"/>
+	<sound id="playful_navigation_06.mp3" name="Guiro" downloadtype="progressive" subtype="soundeffect" duration="731"/>
+	<sound id="playful_navigation_09.mp3" name="Ding" downloadtype="progressive" subtype="soundeffect" duration="731"/>
+	<sound id="pop_01a.mp3" name="Pop - short" downloadtype="progressive" subtype="soundeffect" duration="313"/>
+	<sound id="pop_02a.mp3" name="Pop - open" downloadtype="progressive" subtype="soundeffect" duration="313"/>
+	<sound id="slot_machine_win_jackpot_03.mp3" name="Jackpot" downloadtype="progressive" subtype="soundeffect" duration="30720"/>
+	<sound id="subtle_tech_interface_17.mp3" name="Select" downloadtype="progressive" subtype="soundeffect" duration="287"/>
+	<sound id="talk_show_audience_laughter_08.mp3" name="Audience laughter - short" downloadtype="progressive" subtype="soundeffect" duration="3709"/>
+	<sound id="theater_audience_laughter_01.mp3" name="Audience laughter" downloadtype="progressive" subtype="soundeffect" duration="6870"/>
+	<sound id="water_bubbling_long_04.mp3" name="Bubbling" downloadtype="progressive" subtype="soundeffect" duration="24607"/>
+	<sound id="whistle_11.mp3" name="Whistle" downloadtype="progressive" subtype="soundeffect" duration="758"/>
+	<!-- vyond sfx -->
+	<sound id="bounce_boing.mp3" name="Bounce boing" downloadtype="progressive" subtype="soundeffect" duration="552"/>
+	<sound id="glass_clink.mp3" name="Glass clink" downloadtype="progressive" subtype="soundeffect" duration="400"/>
+	<sound id="thunderstorm_full.mp3" name="Thunderstorm full" downloadtype="progressive" subtype="soundeffect" duration="94968"/>
+	<sound id="zero_point_drama_sting.mp3" name="Zero point drama sting" downloadtype="progressive" subtype="soundeffect" duration="10584"/>
+	<sound id="windy_gusty.mp3" name="Windy gusty" downloadtype="progressive" subtype="soundeffect" duration="7032"/>
+	<sound id="yawn_male.mp3" name="Yawn male" downloadtype="progressive" subtype="soundeffect" duration="3984"/>
+	<sound id="wood_door_knock.mp3" name="Wood door knock" downloadtype="progressive" subtype="soundeffect" duration="1248"/>
+	<sound id="wood_snap.mp3" name="Wood snap" downloadtype="progressive" subtype="soundeffect" duration="864"/>
+	<sound id="thunder_strike_rain.mp3" name="Thunder strike rain" downloadtype="progressive" subtype="soundeffect" duration="17928"/>
+	<sound id="welding_torch_burn.mp3" name="Welding torch burn" downloadtype="progressive" subtype="soundeffect" duration="4571"/>
+	<sound id="whip_whoosh_noise_1.mp3" name="Whip whoosh noise 1" downloadtype="progressive" subtype="soundeffect" duration="840"/>
+	<sound id="whip_whoosh_noise_2.mp3" name="Whip whoosh noise 2" downloadtype="progressive" subtype="soundeffect" duration="936"/>
+	<sound id="whip_whoosh_noise_3.mp3" name="Whip whoosh noise 3" downloadtype="progressive" subtype="soundeffect" duration="720"/>
+	<sound id="whip_whoosh_noise_4.mp3" name="Whip whoosh noise 4" downloadtype="progressive" subtype="soundeffect" duration="864"/>
 	<bubble id="Accidental Presidency" x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK"
 		aid="30362" hasTail="0" display_order="1">
 		<body taily="65" tailx="90" linergb="0" rgb="0xFFFFFF" />
