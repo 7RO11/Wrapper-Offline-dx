@@ -18321,6 +18321,16 @@
 	<sound id="whip_whoosh_noise_2.mp3" name="Whip whoosh noise 2" downloadtype="progressive" subtype="soundeffect" duration="936"/>
 	<sound id="whip_whoosh_noise_3.mp3" name="Whip whoosh noise 3" downloadtype="progressive" subtype="soundeffect" duration="720"/>
 	<sound id="whip_whoosh_noise_4.mp3" name="Whip whoosh noise 4" downloadtype="progressive" subtype="soundeffect" duration="864"/>
+	<sound id="torch_fire_burn.mp3" name="Torch fire burn" downloadtype="progressive" subtype="soundeffect" duration="9816"/>
+	<sound id="welding_torch_burn_2.mp3" name="Welding torch burn 2" downloadtype="progressive" subtype="soundeffect" duration="2808"/>
+	<sound id="vase_smash_break.mp3" name="Vase smash break" downloadtype="progressive" subtype="soundeffect" duration="1200"/>
+	<sound id="clapping_theater_audience_applause.mp3" name="Clapping theater audience applause" downloadtype="progressive" subtype="soundeffect" duration="19440"/>
+	<sound id="two_tone_button_beep.mp3" name="Two tone button beep" downloadtype="progressive" subtype="soundeffect" duration="340"/>
+	<sound id="coins_clink_treasure_drop_money.mp3" name="Coins clink treasure drop money" downloadtype="progressive" subtype="soundeffect" duration="1296"/>
+	<sound id="two_tone_button_beep_phone.mp3" name="Two tone button beep phone" downloadtype="progressive" subtype="soundeffect" duration="209"/>
+	<sound id="thunderstorm_rain.mp3" name="Thunderstorm rain" downloadtype="progressive" subtype="soundeffect" duration="11784"/>
+	<sound id="seagulls_birds.mp3" name="Seagulls birds" downloadtype="progressive" subtype="soundeffect" duration="19464"/>
+	<sound id="tinkle_magic_wand_click_button.mp3" name="Tinkle magic wand click button" downloadtype="progressive" subtype="soundeffect" duration="3000"/>
 	<bubble id="Accidental Presidency" x="-90" y="-45" w="180" h="90" rotate="0" type="BLANK"
 		aid="30362" hasTail="0" display_order="1">
 		<body taily="65" tailx="90" linergb="0" rgb="0xFFFFFF" />
