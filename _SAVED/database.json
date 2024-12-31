@@ -3,6 +3,222 @@
 		{
 			"type": "char",
 			"subtype": 0,
+			"title": "Deadmeat Head",
+			"themeId": "family",
+			"id": "384e78cc",
+			"tags": "_cat:Heads"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Peter Head",
+			"themeId": "family",
+			"id": "6bdb66d6",
+			"tags": "_cat:Heads"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Pig Head",
+			"themeId": "family",
+			"id": "4fab07a5",
+			"tags": "_cat:Heads"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Karen Head",
+			"themeId": "family",
+			"id": "61acb2cb",
+			"tags": "_cat:Heads"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Lily Head",
+			"themeId": "family",
+			"id": "9fe8797c",
+			"tags": "_cat:Heads"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Martin Head",
+			"themeId": "family",
+			"id": "ce664590",
+			"tags": "_cat:Heads"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Boris Head",
+			"themeId": "family",
+			"id": "a281d44d",
+			"tags": "_cat:Heads"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Rosie Head",
+			"themeId": "family",
+			"id": "b1c4587b",
+			"tags": "_cat:Heads"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Dora Head",
+			"themeId": "family",
+			"id": "fee7ff1e",
+			"tags": "_cat:Heads"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Doris Head",
+			"themeId": "family",
+			"id": "db970b83",
+			"tags": "_cat:Heads"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Caillou Head",
+			"themeId": "family",
+			"id": "0b3b015f",
+			"tags": "_cat:Heads"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Sid",
+			"themeId": "business",
+			"id": "ba604820",
+			"tags": ""
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Boris",
+			"themeId": "business",
+			"id": "51ac7de3",
+			"tags": ""
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Doris",
+			"themeId": "business",
+			"id": "b34d7f3d",
+			"tags": ""
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Leo",
+			"themeId": "family",
+			"id": "c824dbc9",
+			"tags": "_cat:Side Chars"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Bill Dad",
+			"themeId": "family",
+			"id": "b3306c08",
+			"tags": "_cat:Side Chars"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Pig Mom",
+			"themeId": "family",
+			"id": "e814fc72",
+			"tags": "_cat:Side Chars"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Bill Mom",
+			"themeId": "family",
+			"id": "cdccce5b",
+			"tags": "_cat:Side Chars"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Fat Dora",
+			"themeId": "family",
+			"id": "13049fb3",
+			"tags": "_cat:Fat Cast"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Officer Intern",
+			"themeId": "family",
+			"id": "f6a0c83c",
+			"tags": "_cat:Side Chars"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Adult Rosie",
+			"themeId": "family",
+			"id": "d289160a",
+			"tags": "_cat:Side Chars"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Judge Peter",
+			"themeId": "family",
+			"id": "e2c1e682",
+			"tags": "_cat:Lazy Edits"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Marry Doris",
+			"themeId": "family",
+			"id": "3e8b1349",
+			"tags": "_cat:Lazy Edits"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Marry Boris",
+			"themeId": "family",
+			"id": "b59aff03",
+			"tags": "_cat:Lazy Edits"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Hurt Caillou",
+			"themeId": "family",
+			"id": "198a00c1",
+			"tags": "_cat:Lazy Edits"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Sub Principal",
+			"themeId": "family",
+			"id": "36c42044",
+			"tags": "_cat:Side Chars"
+		},
+		{
+			"type": "char",
+			"subtype": 0,
+			"title": "Sub Principal",
+			"themeId": "business",
+			"id": "07c26341",
+			"tags": ""
+		},
+		{
+			"type": "char",
+			"subtype": 0,
 			"title": "DorisNH",
 			"themeId": "family",
 			"id": "2acbae7c",
@@ -39,60 +255,6 @@
 			"themeId": "family",
 			"id": "317a0d2f",
 			"tags": "_cat:Side Chars"
-		},
-		{
-			"type": "char",
-			"subtype": 0,
-			"title": "Doris.xml",
-			"themeId": "business",
-			"id": "f012de17"
-		},
-		{
-			"type": "char",
-			"subtype": 0,
-			"title": "Boris.xml",
-			"themeId": "business",
-			"id": "ec1e0bc4"
-		},
-		{
-			"type": "char",
-			"subtype": 0,
-			"title": "Bill Mom.xml",
-			"themeId": "family",
-			"id": "f073a419",
-			"tags": "_cat:Side Chars"
-		},
-		{
-			"type": "char",
-			"subtype": 0,
-			"title": "Pig Mom.xml",
-			"themeId": "family",
-			"id": "5cce2a39",
-			"tags": "_cat:Side Chars"
-		},
-		{
-			"type": "char",
-			"subtype": 0,
-			"title": "Bill Dad.xml",
-			"themeId": "family",
-			"id": "ae314a2f",
-			"tags": "_cat:Side Chars"
-		},
-		{
-			"type": "char",
-			"subtype": 0,
-			"title": "Leo.xml",
-			"themeId": "family",
-			"id": "b74c0ca7",
-			"tags": "_cat:Side Chars"
-		},
-		{
-			"type": "char",
-			"subtype": 0,
-			"title": "Sid.xml",
-			"themeId": "business",
-			"id": "cfd155f2",
-			"tags": ""
 		},
 		{
 			"type": "char",

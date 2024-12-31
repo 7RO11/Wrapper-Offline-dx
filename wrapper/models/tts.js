@@ -280,7 +280,7 @@ module.exports = function processVoice(voiceName, rawText) {
 							path: voice.arg,
 							method: "POST",
 							headers: { 			
-								Host: "gonutts.net",					
+								Host: "tts.town",					
 								"Content-Type": "application/x-www-form-urlencoded"
 							}
 						},
@@ -298,7 +298,7 @@ module.exports = function processVoice(voiceName, rawText) {
 										hostname: "101.99.94.14",	
 										path: `/${path}`,
 										headers: {
-											Host: "gonutts.net"
+											Host: "tts.town"
 										}
 									}, res)
 										.on("error", rej);

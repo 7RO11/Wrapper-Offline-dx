@@ -14,5 +14,5 @@
 
 	"SERVER_PORT": 4343,
 	"WRAPPER_VER": "2.1.0",
-	"DX_VER": "0.1.5"
+	"DX_VER": "0.1.6"
 }
