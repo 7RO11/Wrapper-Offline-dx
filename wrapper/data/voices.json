@@ -2750,7 +2750,7 @@
 			"gender": "F",
 			"source": "acapela",
 			"arg": "lisa22k",
-			"desc": "lisa"
+			"desc": "Lisa"
 		},
 		"tyler": {
 			"country": "AU",
@@ -2758,7 +2758,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "tyler22k",
-			"desc": "tyler"
+			"desc": "Tyler"
 		},
 		"rhona": {
 			"country": "GB",
@@ -2766,7 +2766,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "rhona22k",
-			"desc": "rhona"
+			"desc": "Rhona"
 		},
 		"graham": {
 			"country": "GB",
@@ -2774,7 +2774,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "graham22k",
-			"desc": "graham"
+			"desc": "Graham"
 		},
 		"lucy": {
 			"country": "GB",
@@ -2782,7 +2782,7 @@
 			"gender": "F",
 			"source": "acapela",
 			"arg": "lucy22k",
-			"desc": "lucy"
+			"desc": "Lucy"
 		},
 		"peter": {
 			"country": "GB",
@@ -2790,7 +2790,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "peter22k",
-			"desc": "peter"
+			"desc": "Peter"
 		},
 		"rachel": {
 			"country": "GB",
@@ -2798,7 +2798,7 @@
 			"gender": "F",
 			"source": "acapela",
 			"arg": "rachel22k",
-			"desc": "rachel"
+			"desc": "Rachel"
 		},
 		"peterhappy": {
 			"country": "GB",
@@ -2806,7 +2806,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "peterhappy22k",
-			"desc": "peterhappy"
+			"desc": "Peter - Happy"
 		},
 		"petersad": {
 			"country": "GB",
@@ -2814,7 +2814,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "petersad22k",
-			"desc": "petersad"
+			"desc": "Peter - Sad"
 		},
 		"queenelizabeth": {
 			"country": "GB",
@@ -2822,7 +2822,7 @@
 			"gender": "F",
 			"source": "acapela",
 			"arg": "queenelizabeth22k",
-			"desc": "queenelizabeth"
+			"desc": "Queen Elizabeth"
 		},
 		"kenny": {
 			"country": "US",
@@ -2830,7 +2830,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "kenny22k",
-			"desc": "kenny"
+			"desc": "Kenny"
 		},
 		"laura2": {
 			"country": "US",
@@ -2838,7 +2838,7 @@
 			"gender": "F",
 			"source": "acapela",
 			"arg": "laura22k",
-			"desc": "laura"
+			"desc": "Laura"
 		},
 		"nelly": {
 			"country": "US",
@@ -2846,7 +2846,7 @@
 			"gender": "F",
 			"source": "acapela",
 			"arg": "nelly22k",
-			"desc": "nelly"
+			"desc": "Nelly"
 		},
 		"rod": {
 			"country": "US",
@@ -2854,7 +2854,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "rod22k",
-			"desc": "rod"
+			"desc": "Rod"
 		},
 		"ryan": {
 			"country": "US",
@@ -2862,7 +2862,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "ryan22k",
-			"desc": "ryan"
+			"desc": "Ryan"
 		},
 		"tracy": {
 			"country": "US",
@@ -2870,7 +2870,7 @@
 			"gender": "F",
 			"source": "acapela",
 			"arg": "tracy22k",
-			"desc": "tracy"
+			"desc": "Tracy"
 		},
 		"will": {
 			"country": "US",
@@ -2878,7 +2878,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "will22k",
-			"desc": "will"
+			"desc": "Will"
 		},
 		"karen2": {
 			"country": "US",
@@ -2886,7 +2886,7 @@
 			"gender": "F",
 			"source": "acapela",
 			"arg": "karen22k",
-			"desc": "karen"
+			"desc": "Karen"
 		},
 		"micah": {
 			"country": "US",
@@ -2894,7 +2894,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "micah22k",
-			"desc": "micah"
+			"desc": "Micah"
 		},
 		"saul": {
 			"country": "US",
@@ -2902,7 +2902,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "saul22k",
-			"desc": "saul"
+			"desc": "Saul"
 		},
 		"valeriaenglish": {
 			"country": "US",
@@ -2918,7 +2918,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "willbadguy22k",
-			"desc": "willbadguy"
+			"desc": "Will - Bad guy"
 		},
 		"willfromafar": {
 			"country": "US",
@@ -2926,7 +2926,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "willfromafar22k",
-			"desc": "willfromafar"
+			"desc": "Will - From afar"
 		},
 		"willhappy": {
 			"country": "US",
@@ -2934,7 +2934,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "willhappy22k",
-			"desc": "willhappy"
+			"desc": "Will - Happy"
 		},
 		"willlittlecreature": {
 			"country": "US",
@@ -2942,7 +2942,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "willlittlecreature22k",
-			"desc": "willlittlecreature"
+			"desc": "Will - Little Creature"
 		},
 		"willoldman": {
 			"country": "US",
@@ -2950,7 +2950,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "willoldman22k",
-			"desc": "willoldman"
+			"desc": "Will - Old man"
 		},
 		"willsad": {
 			"country": "US",
@@ -2958,7 +2958,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "willsad22k",
-			"desc": "willsad"
+			"desc": "Will - Sad"
 		},
 		"willupclose": {
 			"country": "US",
@@ -2966,7 +2966,7 @@
 			"gender": "M",
 			"source": "acapela",
 			"arg": "willupclose22k",
-			"desc": "willupclose"
+			"desc": "Will - Up close"
 		},
 		"sanna": {
 			"country": "FI",
