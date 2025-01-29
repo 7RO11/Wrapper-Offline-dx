@@ -1,151 +1,268 @@
+/*
+tts
+*/
 const brotli = require("brotli");
-const { convertToMp3 } = require("../../utils/fileUtil.js");
+const fileUtil = require("../../utils/realFileUtil");
+const fs = require("fs");
 const https = require("https");
+const http = require("http");
 const voices = require("../data/voices.json").voices;
 
 /**
  * uses tts demos to generate tts
- * @param {string} voiceName
- * @param {string} text
- * @returns {Promise<IncomingMessage>}
+ * @param {string} voiceName voice name
+ * @param {string} text text
+ * @returns {Buffer}
  */
-module.exports = function processVoice(voiceName, rawText) {
-	return new Promise((res, rej) => {
+module.exports = function processVoice(voiceName, text) {
+	return new Promise(async (resolve, rej) => {
 		const voice = voices[voiceName];
 		if (!voice) {
-			return rej("The voice you requested is unavailable.");
-		}
-
-		let flags = {};
-		const pieces = rawText.split("#%");
-		let text = pieces.pop().substring(0, 180);
-		for (const rawFlag of pieces) {
-			const index = rawFlag.indexOf("=");
-			if (index == -1) continue;
-			const name = rawFlag.substring(0, index);
-			const value = rawFlag.substring(index + 1);
-			flags[name] = value;
+			return rej("Requested voice is not supported");
 		}
 
 		try {
 			switch (voice.source) {
-				case "polly": {
-					const body = new URLSearchParams({
-						msg: text,
-						lang: voice.arg,
-						source: "ttsmp3"
-					}).toString();
-
-					const req = https.request(
+				case "acapela": {
+					let acapelaArray = [];
+					for (let c = 0; c < 15; c++) acapelaArray.push(~~(65 + Math.random() * 26));
+					const email = `${String.fromCharCode.apply(null, acapelaArray)}@gmail.com`;
+	
+					let req = https.request(
 						{
-							hostname: "ttsmp3.com",
-							path: "/makemp3_new.php",
+							hostname: "acapelavoices.acapela-group.com",
+							path: "/index/getnonce",
 							method: "POST",
-							headers: { 
-								"Content-Length": body.length,
-								"Content-type": "application/x-www-form-urlencoded"
-							}
+							headers: {
+								"Content-Type": "application/x-www-form-urlencoded",
+							},
 						},
 						(r) => {
-							let body = "";
-							r.on("data", (c) => body += c);
+							let buffers = [];
+							r.on("data", (b) => buffers.push(b));
 							r.on("end", () => {
-								const json = JSON.parse(body);
-								if (json.Error == 1) {
-									return rej(json.Text);
-								}
-
-								https
-									.get(json.URL, res)
-									.on("error", rej);
+								const nonce = JSON.parse(Buffer.concat(buffers)).nonce;
+								let req = https.request(
+									{
+										hostname: "h-ir-ssd-1.acapela-group.com",
+										path: "/Services/Synthesizer",
+										method: "POST",
+										headers: {
+											"Content-Type": "application/x-www-form-urlencoded",
+										},
+									},
+									(r) => {
+										let buffers = [];
+										r.on("data", (d) => buffers.push(d));
+										r.on("end", () => {
+											const html = Buffer.concat(buffers);
+											const beg = html.indexOf("&snd_url=") + 9;
+											const end = html.indexOf("&", beg);
+											const sub = html.subarray(beg, end).toString();
+											if (sub.includes("err_code")) {
+												rej("An error occured during generation.");
+												return;
+											}
+											https
+												.get(sub, resolve)
+												.on("error", rej);
+										});
+										r.on("error", rej);
+									}
+								).on("error", rej);
+								req.end(
+									new URLSearchParams({
+										cl_vers: "1-30",
+										req_text: text,
+										cl_login: "AcapelaGroup",
+										cl_app: "AcapelaGroup_WebDemo_Android",
+										req_comment: `{"nonce":"${nonce}","user":"${email}"}`,
+										prot_vers: 2,
+										cl_env: "ACAPELA_VOICES",
+										cl_pwd: "",
+										req_voice: voice.arg,
+										req_echo: "ON",
+									}).toString()
+								);
 							});
-							r.on("error", rej);
 						}
-					)
-					req.on("error", rej);
-					req.end(body);
+					).on("error", rej);
+					req.end(
+						new URLSearchParams({
+							json: `{"googleid":"${email}"`,
+						}).toString()
+					);
 					break;
 				}
-
-				case "nuance": {
-					const q = new URLSearchParams({
-						voice_name: voice.arg,
-						speak_text: text,
-					}).toString();
-
-					https
-						.get(`https://voicedemo.codefactoryglobal.com/generate_audio.asp?${q}`, res)
-						.on("error", rej);
-					break;
-				}
-
+	
 				case "cepstral": {
-					let pitch;
-					if (flags.pitch) {
-						pitch = +flags.pitch;
-						pitch /= 100;
-						pitch *= 4.6;
-						pitch -= 0.4;
-						pitch = Math.round(pitch * 10) / 10;
-					} else {
-						pitch = 1;
-					}
 					https.get("https://www.cepstral.com/en/demos", async (r) => {
+						r.on("error", (e) => rej(e));
 						const cookie = r.headers["set-cookie"];
 						const q = new URLSearchParams({
 							voiceText: text,
 							voice: voice.arg,
 							createTime: 666,
 							rate: 170,
-							pitch: pitch,
+							pitch: 1,
 							sfx: "none"
 						}).toString();
-
+	
 						https.get(
 							{
 								hostname: "www.cepstral.com",
 								path: `/demos/createAudio.php?${q}`,
 								headers: { Cookie: cookie }
 							},
-							(r) => {
+							(r2) => {
 								let body = "";
-								r.on("data", (b) => body += b);
-								r.on("end", () => {
+								r2.on("error", (e) => rej(e));
+								r2.on("data", (c) => body += c);
+								r2.on("end", () => {
 									const json = JSON.parse(body);
-
-									https
-										.get(`https://www.cepstral.com${json.mp3_loc}`, res)
-										.on("error", rej);
+									https.get(`https://www.cepstral.com${json.mp3_loc}`, (r3) => {
+										r3.on("error", (e) => rej(e));
+										resolve(r3);
+									});
 								});
-								r.on("error", rej);
 							}
-						).on("error", rej);
-					}).on("error", rej);
+						);
+					});
 					break;
 				}
-
-				case "voiceforge": {
-					const q = new URLSearchParams({						
-						msg: text,
-						voice: voice.arg,
-						email: "null"
-					}).toString();
-					
-					https.get({
-						hostname: "api.voiceforge.com",
-						path: `/swift_engine?${q}`,
-						headers: { 
-							"User-Agent": "just_audio/2.7.0 (Linux;Android 11) ExoPlayerLib/2.15.0",
-							"HTTP_X_API_KEY": "8b3f76a8539",
-							"Accept-Encoding": "identity",
-							"Icy-Metadata": "1",
+	
+				case "cereproc": {
+					const req = https.request(
+						{
+							hostname: "www.cereproc.com",
+							path: "/themes/benchpress/livedemo.php",
+							method: "POST",
+							headers: {
+								"content-type": "text/xml",
+								"accept-encoding": "gzip, deflate, br",
+								origin: "https://www.cereproc.com",
+								referer: "https://www.cereproc.com/en/products/voices",
+								"x-requested-with": "XMLHttpRequest",
+								cookie: "Drupal.visitor.liveDemoCookie=666",
+							},
+						},
+						(r) => {
+							var buffers = [];
+							r.on("data", (d) => buffers.push(d));
+							r.on("end", () => {
+								const xml = String.fromCharCode.apply(null, brotli.decompress(Buffer.concat(buffers)));
+								const beg = xml.indexOf("<url>") + 5;
+								const end = xml.lastIndexOf("</url>");
+								const loc = xml.substring(beg, end).toString();
+								https.get(loc, resolve).on("error", rej);
+							});
+							r.on("error", rej);
 						}
-					}, (r) => {
-						convertToMp3(r, "wav").then(res).catch(rej);
-					}).on("error", rej);
+					).on("error", rej);
+					req.end(
+						`<speakExtended key='666'><voice>${voice.arg}</voice><text>${text}</text><audioFormat>mp3</audioFormat></speakExtended>`
+					);
 					break;
 				}
-
+	
+				case "polly": {
+					const q = new URLSearchParams({
+						voice: voice.arg,
+						text: text,
+					}).toString();
+	
+					https
+						.get(`https://api.streamelements.com/kappa/v2/speech?${q}`, resolve)
+						.on("error", rej);
+					break;
+				}
+	
+				case "readloud": {
+					const body = new URLSearchParams({
+						but1: text,
+						butS: 0,
+						butP: 0,
+						butPauses: 0,
+						butt0: "Submit",
+					}).toString();
+					const req = https.request(
+						{
+							hostname: "readloud.net",
+							path: voice.arg,
+							method: "POST",
+							headers: {
+								"Content-Type": "application/x-www-form-urlencoded"
+							}
+						},
+						(r) => {
+							let buffers = [];
+							r.on("error", (e) => rej(e));
+							r.on("data", (b) => buffers.push(b));
+							r.on("end", () => {
+								const html = Buffer.concat(buffers);
+								const beg = html.indexOf("/tmp/");
+								const end = html.indexOf("mp3", beg) + 3;
+								const sub = html.subarray(beg, end).toString();
+	
+								https.get(`https://readloud.net${sub}`, (r2) => {
+									r2.on("error", (e) => rej(e));
+									resolve(r2);
+								});
+							});
+						}
+					).on("error", (e) => rej(e));
+					req.end(body);
+					break;
+				}
+	
+				case "svox2": {
+					const q = new URLSearchParams({
+						speed: 0,
+						apikey: "38fcab81215eb701f711df929b793a89",
+						text: text,
+						action: "convert",
+						voice: voice.arg,
+						format: "mp3",
+						e: "audio.mp3"
+					}).toString();
+	
+					https
+						.get(`https://api.ispeech.org/api/rest?${q}`, resolve)
+						.on("error", rej);
+					break;
+				}
+	
+				case "tiktok": {
+					const req = https.request(
+						{
+							hostname: "tiktok-tts.weilnet.workers.dev",
+							path: "/api/generation",
+							method: "POST",
+							headers: {
+								"Content-type": "application/json"
+							}
+						},
+						(r) => {
+							let body = "";
+							r.on("error", (e) => rej(e));
+							r.on("data", (b) => body += b);
+							r.on("end", () => {
+								const json = JSON.parse(body);
+								if (json.success != true) {
+									return rej(json.error);
+								}
+								resolve(Buffer.from(json.data, "base64"));
+							});
+							r.on("error", rej);
+						}
+					).on("error", (e) => rej(e));
+					req.end(JSON.stringify({
+						text: text,
+						voice: voice.arg
+					}));
+					break;
+				}
+	
 				case "vocalware": {
 					const [EID, LID, VID] = voice.arg;
 					const q = new URLSearchParams({
@@ -159,7 +276,7 @@ module.exports = function processVoice(voiceName, rawText) {
 						SceneID: 2703396,
 						HTTP_ERR: "",
 					}).toString();
-
+	
 					console.log(`https://cache-a.oddcast.com/tts/genB.php?${q}`)
 					https
 						.get(
@@ -180,211 +297,74 @@ module.exports = function processVoice(voiceName, rawText) {
 									"Sec-Fetch-Mode": "cors",
 									"Sec-Fetch-Site": "same-site"
 								}
-							}, res
+							}, resolve
 						)
 						.on("error", rej);
 					break;
 				}
-
-				case "acapela": {
-					let acapelaArray = [];
-					for (let c = 0; c < 15; c++) acapelaArray.push(~~(65 + Math.random() * 26));
-					const email = `${String.fromCharCode.apply(null, acapelaArray)}@gmail.com`;
-
-					let req = https.request(
-						{
-							hostname: "acapelavoices.acapela-group.com",
-							path: "/index/getnonce",
-							method: "POST",
-							headers: {
-								"Content-Type": "application/x-www-form-urlencoded",
-							},
-						},
-						(r) => {
-							let buffers = [];
-							r.on("data", (b) => buffers.push(b));
-							r.on("end", () => {
-								const nonce = JSON.parse(Buffer.concat(buffers)).nonce;
-								let req = https.request(
-									{
-										hostname: "acapela-group.com",
-										port: "8443",
-										path: "/Services/Synthesizer",
-										method: "POST",
-										headers: {
-											"Content-Type": "application/x-www-form-urlencoded",
-										},
-									},
-									(r) => {
-										let buffers = [];
-										r.on("data", (d) => buffers.push(d));
-										r.on("end", () => {
-											const html = Buffer.concat(buffers);
-											const beg = html.indexOf("&snd_url=") + 9;
-											const end = html.indexOf("&", beg);
-											const sub = html.subarray(beg, end).toString();
-
-											https
-												.get(sub, res)
-												.on("error", rej);
-										});
-										r.on("error", rej);
-									}
-								).on("error", rej);
-								req.end(
-									new URLSearchParams({
-										req_voice: voice.arg,
-										cl_pwd: "",
-										cl_vers: "1-30",
-										req_echo: "ON",
-										cl_login: "AcapelaGroup",
-										req_comment: `{"nonce":"${nonce}","user":"${email}"}`,
-										req_text: text,
-										cl_env: "ACAPELA_VOICES",
-										prot_vers: 2,
-										cl_app: "AcapelaGroup_WebDemo_Android",
-									}).toString()
-								);
-							});
-						}
-					).on("error", rej);
-					req.end(
-						new URLSearchParams({
-							json: `{"googleid":"${email}"`,
-						}).toString()
-					);
-					break;
-				}
-
-				case "svox": {
+				case "nuance": {
 					const q = new URLSearchParams({
-						apikey: "e3a4477c01b482ea5acc6ed03b1f419f",
-						action: "convert",
-						format: "mp3",
-						voice: voice.arg,
-						speed: 0,
-						text: text,
-						version: "0.2.99",
+						voice_name: voice.arg,
+						speak_text: text,
 					}).toString();
-
+	
 					https
-						.get(`https://api.ispeech.org/api/rest?${q}`, res)
+						.get(`https://voicedemo.codefactoryglobal.com/generate_audio.asp?${q}`, resolve)
 						.on("error", rej);
 					break;
 				}
-
-				case "readloud": {
-					const req = https.request(
-						{
-							hostname: "101.99.94.14",														
-							path: voice.arg,
-							method: "POST",
-							headers: { 			
-								Host: "tts.town",					
-								"Content-Type": "application/x-www-form-urlencoded"
-							}
-						},
-						(r) => {
-							let buffers = [];
-							r.on("data", (b) => buffers.push(b));
-							r.on("end", () => {
-								const html = Buffer.concat(buffers);
-								const beg = html.indexOf("/tmp/");
-								const end = html.indexOf("mp3", beg) + 3;
-								const path = html.subarray(beg, end).toString();
-
-								if (path.length > 0) {
-									https.get({
-										hostname: "101.99.94.14",	
-										path: `/${path}`,
-										headers: {
-											Host: "tts.town"
-										}
-									}, res)
-										.on("error", rej);
-								} else {
-									return rej("Could not find voice clip file in response.");
-								}
-							});
-						}
-					);
-					req.on("error", rej);
-					req.end(
-						new URLSearchParams({
-							but1: text,
-							butS: 0,
-							butP: 0,
-							butPauses: 0,
-							but: "Submit",
-						}).toString()
-					);
-					break;
-				}
-
-				case "cereproc": {
-					const req = https.request(
-						{
-							hostname: "www.cereproc.com",
-							path: "/themes/benchpress/livedemo.php",
-							method: "POST",
-							headers: {
-								"content-type": "text/xml",
-								"accept-encoding": "gzip, deflate, br",
-								origin: "https://www.cereproc.com",
-								referer: "https://www.cereproc.com/en/products/voices",
-								"x-requested-with": "XMLHttpRequest",
-								cookie: "Drupal.visitor.liveDemo=666",
-							},
-						},
-						(r) => {
-							var buffers = [];
-							r.on("data", (d) => buffers.push(d));
-							r.on("end", () => {
-								const xml = String.fromCharCode.apply(null, brotli.decompress(Buffer.concat(buffers)));
-								const beg = xml.indexOf("<url>") + 5;
-								const end = xml.lastIndexOf("</url>");
-								const loc = xml.substring(beg, end).toString();
-								https.get(loc, res).on("error", rej);
-							});
-							r.on("error", rej);
-						}
-					);
-					req.on("error", rej);
-					req.end(
-						`<speakExtended key='666'><voice>${voice.arg}</voice><text>${text}</text><audioFormat>mp3</audioFormat></speakExtended>`
-					);
-					break;
-				}
-
-				case "tiktok": {
-					const req = https.request(
-						{
-							hostname: "tiktok-tts.weilnet.workers.dev",
-							path: "/api/generation",
-							method: "POST",
-							headers: {
-								"Content-type": "application/json"
-							}
-						},
-						(r) => {
-							let body = "";
-							r.on("data", (b) => body += b);
-							r.on("end", () => {
-								const json = JSON.parse(body);
-								if (json.success !== true) {
-									return rej(json.error);
-								}
-
-								res(Buffer.from(json.data, "base64"));
-							});
-							r.on("error", rej);
-						}
-					).on("error", rej);
-					req.end(JSON.stringify({
+				case "svox": {
+					const q = new URLSearchParams({
+						speed: 0,
+						apikey: "ispeech-listenbutton-betauserkey",
 						text: text,
-						voice: voice.arg
-					}));
+						action: "convert",
+						voice: voice.arg,
+						format: "mp3",
+						e: "audio.mp3"
+					}).toString();
+	
+					https
+						.get(`https://api.ispeech.org/api/rest?${q}`, resolve)
+						.on("error", rej);
 					break;
+				}
+				// again thx unicom for this fix
+				case "voiceforge": {
+					const vUtil = require("../../utils/voiceUtil");
+					// the people want this
+					text = await vUtil.convertText(text, voice.arg);
+					const queryString = new URLSearchParams({
+						msg: text,
+						voice: voice.arg,
+						email: "chopped@chin.com"
+					}).toString();
+					const req = https.request(
+						{
+							hostname: "api.voiceforge.com",
+							path: `/swift_engine?${queryString}`,
+							method: "GET",
+							headers: {
+								"Host": "api.voiceforge.com",
+								"User-Agent": "just_audio/2.7.0 (Linux;Android 14) ExoPlayerLib/2.15.0",
+								"Connection": "Keep-Alive",
+								"Http_x_api_key": "8b3f76a8539",
+								"Accept-Encoding": "gzip, deflate, br",
+								"Icy-Metadata": "1",
+							}
+						}, (r) => {
+							r.on("error", (e) => rej(e));
+							fileUtil.convertToMp3(r, "wav")
+								.then(stream => resolve(stream))
+								.catch((e) => rej(e));
+						}
+					).on("error", (e) => rej(e));
+					req.end();
+					break;
+				}
+	
+				default: {
+					return rej("Not implemented");
 				}
 			}
 		} catch (e) {
