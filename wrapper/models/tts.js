@@ -59,7 +59,7 @@ module.exports = function processVoice(voiceName, text) {
 											const beg = html.indexOf("&snd_url=") + 9;
 											const end = html.indexOf("&", beg);
 											const sub = html.subarray(beg, end).toString();
-											if (sub.includes("err_code")) {
+											if (sub.includes("err_code") || !sub) {
 												rej("An error occured during generation.");
 												return;
 											}
